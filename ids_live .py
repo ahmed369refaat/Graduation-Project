@@ -720,7 +720,7 @@ class LiveIDS:
                         if dyn_thr > 0:
                             self.classifier.threshold = dyn_thr
                             self.is_calibrating = False
-                            print(f"\n\n{C.GREEN}✅ Calibration finished! Dynamic Threshold established: {dyn_thr:.6f}{C.R}")
+                            print(f"\n\n{C.GREEN} Calibration finished! Dynamic Threshold established: {dyn_thr:.6f}{C.R}")
                             print(f"{C.GRAY}   Traffic below this limit is NORMAL, above is an ATTACK.{C.R}\n")
                         else:
                             # Fallback safe limit
