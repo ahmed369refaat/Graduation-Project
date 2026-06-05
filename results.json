@@ -1,0 +1,17 @@
+{
+  "model": "LiteTAE",
+  "dataset": "CSE-CIC-IDS2018",
+  "threshold": 0.004644227369135478,
+  "metrics": {
+    "accuracy": 0.9292,
+    "precision": 0.9363,
+    "recall_tpr": 0.9058,
+    "f1": 0.9208,
+    "auc_roc": 0.9762,
+    "fpr": 0.0514,
+    "TP": 22646,
+    "FP": 1541,
+    "TN": 28459,
+    "FN": 2354
+  }
+}
